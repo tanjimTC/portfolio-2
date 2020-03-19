@@ -1,5 +1,7 @@
 body{
     font-family: 'Baloo Da 2', cursive;
+    margin: 0px;
+    padding: 0px;
 }
 h1{
     font-size: 50px;
@@ -13,4 +15,34 @@ h1{
 .half-width img {
     width: 70%;
     padding-top: 5%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 400px;
+}
+
+.myButton {
+	box-shadow:inset -28px 35px 0px -26px #FA6D59;
+	background-color:rgb(231, 74, 54);
+	border-radius:29px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:11px 45px;
+	text-decoration:none;
+    text-shadow:0px 0px 9px #cf4036;
+    
+}
+.myButton:hover {
+    background-color:#FA6D59;
+    transition: 0.5s all ease-in-out;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
