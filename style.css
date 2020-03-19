@@ -1,0 +1,16 @@
+body{
+    font-family: 'Baloo Da 2', cursive;
+}
+h1{
+    font-size: 50px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+    float: left;
+}
+.half-width img {
+    width: 70%;
+    padding-top: 5%;
+}
