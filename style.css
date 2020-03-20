@@ -9,19 +9,35 @@ h1{
 .half-width{
     width: 40%;
     margin-left: 5%;
-    padding-left: 5%;
+    padding-left: 2%;
     float: left;
 }
 .half-width img {
-    width: 70%;
-    padding-top: 5%;
+    width: 75%;
+    padding-top:15%;
+    padding-left: 5%;
+    
 }
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    padding-bottom: 10px;
 }
 section{
-    height: 400px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.half-width-2{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+    float: left;
+}
+.half-width-2 img {
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .myButton {
@@ -45,4 +61,9 @@ section{
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
