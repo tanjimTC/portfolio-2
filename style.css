@@ -28,11 +28,10 @@ h3{
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    padding-bottom: 150px;
 }
 section{
     height: 500px;
-    padding-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 
@@ -112,4 +111,12 @@ section{
     border-left: 7px solid black;
     border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice:1;
+}
+
+footer p{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
